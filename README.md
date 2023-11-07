@@ -108,7 +108,8 @@ When we travel different countries or visit different places, it is easy to get 
 ## Wireframes
 
 [Add picture of your hand sketched wireframes in this section]
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+<img src="./wireframe_draft.jpg" width=600>
+![](./wireframe_draft.jpg?raw=true "WireFrame")
 
 ### [BONUS] Digital Wireframes & Mockups
 
