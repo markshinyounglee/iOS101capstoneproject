@@ -49,7 +49,7 @@ When we travel different countries or visit different places, it is easy to get 
 
 ### 2. Screen Archetypes
 
-- [ ] [Main Search Screen]
+- [X] [Main Search Screen]
 * [User can search by location]
 * [User can search by time range of service]
 * [User can search by denomination]
@@ -81,7 +81,7 @@ When we travel different countries or visit different places, it is easy to get 
 
 **Flow Navigation** (Screen to Screen)
 
-- [ ] [Home/Main Search Screen]
+- [X] [Home/Main Search Screen]
 * -> [Search by pastor]
 * -> [Search by denomination]
 * -> [Search by service time]
@@ -108,8 +108,7 @@ When we travel different countries or visit different places, it is easy to get 
 ## Wireframes
 
 [Add picture of your hand sketched wireframes in this section]
-<img src="./wireframe_draft.jpg" width=600>
-![](./wireframe_draft.jpg?raw=true "WireFrame")
+<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
 
