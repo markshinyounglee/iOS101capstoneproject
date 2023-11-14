@@ -14,6 +14,8 @@ GoFindChurch
 
 ### Description
 
+[Also visible here](https://hackmd.io/@0yxRoGDhS1-989uKw4lOnw/r1KSGy87p)
+
 When we travel different countries or visit different places, it is easy to get lost. One of the major things is finding your church. Especially if you follow a certain denomination or prefer late-night service times, it could be a major hassle to choose the right church for you. If you are a traveler, backpacker, or Christian digital nomad, you will feel what I mean. If you tend to plan things on the go, you will feel what I mean. I personally had trouble finding churches when I go to new places as I find myself being unable to find churches offering service in the afternoon in many major American cities. Well say no more, GoFindChurch has got your back! 
 
 ### App Evaluation
@@ -108,7 +110,8 @@ When we travel different countries or visit different places, it is easy to get 
 ## Wireframes
 
 [Add picture of your hand sketched wireframes in this section]
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+<img src="./wireframe_draft.jpg" width=600>
+![](./wireframe_draft.jpg?raw=true "WireFrame")
 
 ### [BONUS] Digital Wireframes & Mockups
 
@@ -125,6 +128,8 @@ When we travel different countries or visit different places, it is easy to get 
 ### Networking
 
 - [Add list of network requests by screen ]
+    - http://calapi.inadiutorium.cz/api/v0/en/calendars/general-en/today: used to view what liturgical day today is
 - [Create basic snippets for each Parse network request]
+    - URLSession.shared.dataTask()
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
 
