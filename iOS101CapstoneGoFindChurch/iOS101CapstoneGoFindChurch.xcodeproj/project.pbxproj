@@ -13,6 +13,10 @@
 		D151F0C82AFA1753009C8ED1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D151F0C62AFA1753009C8ED1 /* Main.storyboard */; };
 		D151F0CA2AFA1754009C8ED1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D151F0C92AFA1754009C8ED1 /* Assets.xcassets */; };
 		D151F0CD2AFA1754009C8ED1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D151F0CB2AFA1754009C8ED1 /* LaunchScreen.storyboard */; };
+		D1B9FF1C2B00309200732B26 /* WhatDayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B9FF1B2B00309200732B26 /* WhatDayController.swift */; };
+		D1B9FF1E2B00345A00732B26 /* SearchResultController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B9FF1D2B00345A00732B26 /* SearchResultController.swift */; };
+		D1B9FF202B029E5C00732B26 /* WhatDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B9FF1F2B029E5C00732B26 /* WhatDay.swift */; };
+		D1B9FF222B02FFB800732B26 /* ServiceHourMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B9FF212B02FFB800732B26 /* ServiceHourMap.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		D151F0C92AFA1754009C8ED1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D151F0CC2AFA1754009C8ED1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D151F0CE2AFA1754009C8ED1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1B9FF1B2B00309200732B26 /* WhatDayController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatDayController.swift; sourceTree = "<group>"; };
+		D1B9FF1D2B00345A00732B26 /* SearchResultController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultController.swift; sourceTree = "<group>"; };
+		D1B9FF1F2B029E5C00732B26 /* WhatDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatDay.swift; sourceTree = "<group>"; };
+		D1B9FF212B02FFB800732B26 /* ServiceHourMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceHourMap.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +67,10 @@
 				D151F0C02AFA1753009C8ED1 /* AppDelegate.swift */,
 				D151F0C22AFA1753009C8ED1 /* SceneDelegate.swift */,
 				D151F0C42AFA1753009C8ED1 /* ViewController.swift */,
+				D1B9FF212B02FFB800732B26 /* ServiceHourMap.swift */,
+				D1B9FF1F2B029E5C00732B26 /* WhatDay.swift */,
+				D1B9FF1B2B00309200732B26 /* WhatDayController.swift */,
+				D1B9FF1D2B00345A00732B26 /* SearchResultController.swift */,
 				D151F0C62AFA1753009C8ED1 /* Main.storyboard */,
 				D151F0C92AFA1754009C8ED1 /* Assets.xcassets */,
 				D151F0CB2AFA1754009C8ED1 /* LaunchScreen.storyboard */,
@@ -138,9 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1B9FF1C2B00309200732B26 /* WhatDayController.swift in Sources */,
 				D151F0C52AFA1753009C8ED1 /* ViewController.swift in Sources */,
+				D1B9FF202B029E5C00732B26 /* WhatDay.swift in Sources */,
 				D151F0C12AFA1753009C8ED1 /* AppDelegate.swift in Sources */,
 				D151F0C32AFA1753009C8ED1 /* SceneDelegate.swift in Sources */,
+				D1B9FF222B02FFB800732B26 /* ServiceHourMap.swift in Sources */,
+				D1B9FF1E2B00345A00732B26 /* SearchResultController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
