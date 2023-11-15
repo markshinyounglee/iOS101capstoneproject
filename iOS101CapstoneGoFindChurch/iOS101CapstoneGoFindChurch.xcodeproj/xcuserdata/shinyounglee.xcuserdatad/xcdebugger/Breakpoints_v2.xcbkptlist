@@ -67,5 +67,53 @@
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4CFB520A-9FB8-475A-B923-3597135112B8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOS101CapstoneGoFindChurch/SearchResultController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4CFB520A-9FB8-475A-B923-3597135112B8 - bbf21dc18e2b58b1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iOS101CapstoneGoFindChurch.SearchResultController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "iOS101CapstoneGoFindChurch"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shinyounglee/Documents/codepath/iOS101/capstone/iOS101capstoneproject/iOS101CapstoneGoFindChurch/iOS101CapstoneGoFindChurch/SearchResultController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "760">
+               </Location>
+               <Location
+                  uuid = "4CFB520A-9FB8-475A-B923-3597135112B8 - bbf21dc18e2b58b1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iOS101CapstoneGoFindChurch.SearchResultController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "iOS101CapstoneGoFindChurch"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shinyounglee/Documents/codepath/iOS101/capstone/iOS101capstoneproject/iOS101CapstoneGoFindChurch/iOS101CapstoneGoFindChurch/SearchResultController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "972">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

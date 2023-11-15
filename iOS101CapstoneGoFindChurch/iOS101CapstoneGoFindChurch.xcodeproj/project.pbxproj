@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D1206DD52B03D876000EAFFE /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1206DD42B03D875000EAFFE /* ProfileViewController.swift */; };
+		D1206DD72B03D8C9000EAFFE /* SavedChurchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1206DD62B03D8C9000EAFFE /* SavedChurchController.swift */; };
+		D1206DD92B03E1B5000EAFFE /* Church.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1206DD82B03E1B5000EAFFE /* Church.swift */; };
+		D1206DDD2B03E56E000EAFFE /* ChurchViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1206DDC2B03E56E000EAFFE /* ChurchViewCell.swift */; };
+		D1206DDF2B03F213000EAFFE /* ChurchDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1206DDE2B03F213000EAFFE /* ChurchDetailController.swift */; };
 		D151F0C12AFA1753009C8ED1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D151F0C02AFA1753009C8ED1 /* AppDelegate.swift */; };
 		D151F0C32AFA1753009C8ED1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D151F0C22AFA1753009C8ED1 /* SceneDelegate.swift */; };
 		D151F0C52AFA1753009C8ED1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D151F0C42AFA1753009C8ED1 /* ViewController.swift */; };
@@ -20,6 +25,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D1206DD42B03D875000EAFFE /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		D1206DD62B03D8C9000EAFFE /* SavedChurchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedChurchController.swift; sourceTree = "<group>"; };
+		D1206DD82B03E1B5000EAFFE /* Church.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Church.swift; sourceTree = "<group>"; };
+		D1206DDC2B03E56E000EAFFE /* ChurchViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChurchViewCell.swift; sourceTree = "<group>"; };
+		D1206DDE2B03F213000EAFFE /* ChurchDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChurchDetailController.swift; sourceTree = "<group>"; };
 		D151F0BD2AFA1753009C8ED1 /* iOS101CapstoneGoFindChurch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS101CapstoneGoFindChurch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D151F0C02AFA1753009C8ED1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D151F0C22AFA1753009C8ED1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,13 +74,18 @@
 		D151F0BF2AFA1753009C8ED1 /* iOS101CapstoneGoFindChurch */ = {
 			isa = PBXGroup;
 			children = (
+				D1206DD82B03E1B5000EAFFE /* Church.swift */,
+				D1206DDC2B03E56E000EAFFE /* ChurchViewCell.swift */,
 				D151F0C02AFA1753009C8ED1 /* AppDelegate.swift */,
 				D151F0C22AFA1753009C8ED1 /* SceneDelegate.swift */,
 				D151F0C42AFA1753009C8ED1 /* ViewController.swift */,
 				D1B9FF212B02FFB800732B26 /* ServiceHourMap.swift */,
 				D1B9FF1F2B029E5C00732B26 /* WhatDay.swift */,
 				D1B9FF1B2B00309200732B26 /* WhatDayController.swift */,
+				D1206DDE2B03F213000EAFFE /* ChurchDetailController.swift */,
 				D1B9FF1D2B00345A00732B26 /* SearchResultController.swift */,
+				D1206DD42B03D875000EAFFE /* ProfileViewController.swift */,
+				D1206DD62B03D8C9000EAFFE /* SavedChurchController.swift */,
 				D151F0C62AFA1753009C8ED1 /* Main.storyboard */,
 				D151F0C92AFA1754009C8ED1 /* Assets.xcassets */,
 				D151F0CB2AFA1754009C8ED1 /* LaunchScreen.storyboard */,
@@ -150,12 +165,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1206DD92B03E1B5000EAFFE /* Church.swift in Sources */,
+				D1206DD72B03D8C9000EAFFE /* SavedChurchController.swift in Sources */,
 				D1B9FF1C2B00309200732B26 /* WhatDayController.swift in Sources */,
+				D1206DDF2B03F213000EAFFE /* ChurchDetailController.swift in Sources */,
 				D151F0C52AFA1753009C8ED1 /* ViewController.swift in Sources */,
 				D1B9FF202B029E5C00732B26 /* WhatDay.swift in Sources */,
 				D151F0C12AFA1753009C8ED1 /* AppDelegate.swift in Sources */,
 				D151F0C32AFA1753009C8ED1 /* SceneDelegate.swift in Sources */,
+				D1206DDD2B03E56E000EAFFE /* ChurchViewCell.swift in Sources */,
 				D1B9FF222B02FFB800732B26 /* ServiceHourMap.swift in Sources */,
+				D1206DD52B03D876000EAFFE /* ProfileViewController.swift in Sources */,
 				D1B9FF1E2B00345A00732B26 /* SearchResultController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
