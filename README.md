@@ -93,10 +93,10 @@ When we travel different countries or visit different places, it is easy to get 
 * -> [Main Search Screen]
 * -> [Create Screen]
 
-- [ ] [Registration Screen]
+- [X] [Registration Screen]
 * -> [Sign-in Screen]
 
-- [ ] [Sign-in Screen]
+- [X] [Sign-in Screen]
 * -> [Profile]
 
 - [ ] [Profile Screen]
