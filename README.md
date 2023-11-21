@@ -61,7 +61,7 @@ When we travel different countries or visit different places, it is easy to get 
 * [User can select a church and view more information by clicking the dropdown menu]
 * [User can locally save his/her favorite church ID, denomination, or pastors]
 
-- [ ] [Register Screen]
+- [X] [Register Screen]
 * [User can create an account]
 
 - [ ] [Sign-in Screen]
