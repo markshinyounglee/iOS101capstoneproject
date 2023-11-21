@@ -12,6 +12,17 @@ class WhatDayController: UIViewController {
 
     @IBOutlet weak var DateLabel: UILabel!
     @IBOutlet weak var CelebrationLabel: UILabel!
+    @IBOutlet weak var whatMonthPicker: UIPickerView!
+    @IBOutlet weak var whatDayPicker: UIPickerView!
+    @IBOutlet weak var goButton: UIButton!
+    
+    let monthNames: [String] = [
+        "January", "February", "March", "April", "May",
+        "June", "July", "August", "September", "October",
+        "November", "December"
+    ]
+    
+    let dayName: [Int] = Array(1...31)
     
     override func viewDidLoad() {
         super.viewDidLoad()

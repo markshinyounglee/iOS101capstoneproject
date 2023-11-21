@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D118C4842B0C7F9D00DDF63C /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D118C4832B0C7F9D00DDF63C /* LoginController.swift */; };
+		D118C4862B0C831A00DDF63C /* SignupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D118C4852B0C831A00DDF63C /* SignupController.swift */; };
+		D118C4882B0C8F9600DDF63C /* LoginInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D118C4872B0C8F9600DDF63C /* LoginInfo.swift */; };
 		D1206DD52B03D876000EAFFE /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1206DD42B03D875000EAFFE /* ProfileViewController.swift */; };
 		D1206DD72B03D8C9000EAFFE /* SavedChurchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1206DD62B03D8C9000EAFFE /* SavedChurchController.swift */; };
 		D1206DD92B03E1B5000EAFFE /* Church.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1206DD82B03E1B5000EAFFE /* Church.swift */; };
@@ -25,6 +28,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D118C4832B0C7F9D00DDF63C /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		D118C4852B0C831A00DDF63C /* SignupController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupController.swift; sourceTree = "<group>"; };
+		D118C4872B0C8F9600DDF63C /* LoginInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInfo.swift; sourceTree = "<group>"; };
 		D1206DD42B03D875000EAFFE /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		D1206DD62B03D8C9000EAFFE /* SavedChurchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedChurchController.swift; sourceTree = "<group>"; };
 		D1206DD82B03E1B5000EAFFE /* Church.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Church.swift; sourceTree = "<group>"; };
@@ -84,6 +90,9 @@
 				D1B9FF1B2B00309200732B26 /* WhatDayController.swift */,
 				D1206DDE2B03F213000EAFFE /* ChurchDetailController.swift */,
 				D1B9FF1D2B00345A00732B26 /* SearchResultController.swift */,
+				D118C4832B0C7F9D00DDF63C /* LoginController.swift */,
+				D118C4852B0C831A00DDF63C /* SignupController.swift */,
+				D118C4872B0C8F9600DDF63C /* LoginInfo.swift */,
 				D1206DD42B03D875000EAFFE /* ProfileViewController.swift */,
 				D1206DD62B03D8C9000EAFFE /* SavedChurchController.swift */,
 				D151F0C62AFA1753009C8ED1 /* Main.storyboard */,
@@ -168,11 +177,14 @@
 				D1206DD92B03E1B5000EAFFE /* Church.swift in Sources */,
 				D1206DD72B03D8C9000EAFFE /* SavedChurchController.swift in Sources */,
 				D1B9FF1C2B00309200732B26 /* WhatDayController.swift in Sources */,
+				D118C4842B0C7F9D00DDF63C /* LoginController.swift in Sources */,
 				D1206DDF2B03F213000EAFFE /* ChurchDetailController.swift in Sources */,
 				D151F0C52AFA1753009C8ED1 /* ViewController.swift in Sources */,
 				D1B9FF202B029E5C00732B26 /* WhatDay.swift in Sources */,
 				D151F0C12AFA1753009C8ED1 /* AppDelegate.swift in Sources */,
 				D151F0C32AFA1753009C8ED1 /* SceneDelegate.swift in Sources */,
+				D118C4882B0C8F9600DDF63C /* LoginInfo.swift in Sources */,
+				D118C4862B0C831A00DDF63C /* SignupController.swift in Sources */,
 				D1206DDD2B03E56E000EAFFE /* ChurchViewCell.swift in Sources */,
 				D1B9FF222B02FFB800732B26 /* ServiceHourMap.swift in Sources */,
 				D1206DD52B03D876000EAFFE /* ProfileViewController.swift in Sources */,

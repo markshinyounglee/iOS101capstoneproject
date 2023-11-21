@@ -8,6 +8,9 @@
 import UIKit
 // import Nuke // for loading images
 
+// may consider using web scraping to gather information
+// on different churches available
+// and use Google Map API for precise location
 
 class SearchResultController: UIViewController, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -96,14 +99,14 @@ class SearchResultController: UIViewController, UITableViewDataSource {
         var denominationDisplayText = selectedDenomination ?? "error"
         var locationDisplayText = selectedLocation ?? "error"
         
-        if pastorDisplayText == defaultPastorString
+        if [defaultPastorString, ""].contains(pastorDisplayText)
         {
             pastorDisplayText = "---"
         }
-        if denominationDisplayText == defaultDenominationString {
+        if [defaultDenominationString, ""].contains(denominationDisplayText) {
             denominationDisplayText = "---"
         }
-        if locationDisplayText == defaultLocationString {
+        if [defaultLocationString, ""].contains(locationDisplayText) {
             locationDisplayText = "---"
         }
         
